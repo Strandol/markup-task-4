@@ -1,0 +1,246 @@
+body
+{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body hr
+{
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+header
+{
+    padding: 10px;
+    background: url('src/img/header_img.jpg') no-repeat;
+    position: relative;
+    vertical-align: middle;
+}
+
+header hr
+{
+    height: 3px;
+    background: white;
+}
+
+header h3
+{
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: #d69f5b;
+}
+
+header h1
+{
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #f06739;
+    text-shadow: 3px 3px white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .povetkin_img
+{
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 5px #4c476f;
+    opacity: .8;
+}
+
+body .magazine_name
+{
+    font-family: 'Boogaloo', cursive;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    height: 50px;
+    display: block;
+    vertical-align: middle;
+    background: linear-gradient(to bottom, #e7a34d, #5c5041);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+body .magazine_name h3
+{
+    position: absolute;
+    display: inline;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    top: 5%;
+    left: 35%;
+}
+
+body .magazine_name h4
+{
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+}
+
+section
+{
+    float: left;
+    vertical-align: top;
+    width: 450px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+section p::first-letter
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.povetkin_news p
+{
+    display: inline-block;
+    column-count: 2;
+    column-rule: 1px solid black;
+    margin: 0;
+}
+
+.povetkin_news h3
+{
+    margin: 0;
+    display: block;
+}
+
+.povetkin_news img
+{
+    column-span: all;
+}
+
+main .news_header
+{
+    float: left;
+    padding-bottom: 20px;
+    vertical-align: top;
+    font-family: 'Shrikhand', cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+    display: inline-block;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+}
+
+.wilder_news,
+.klitsko_news,
+.belts
+{
+    height: 440px;
+}
+
+.wilder_news img
+{
+    float: right;
+}
+
+.belts
+{
+    width: 200px;
+}
+
+.products
+{
+    width: 300px;
+}
+
+.products p,
+.products p::first-letter,
+.boxing_ring p,
+.boxing_ring p::first-letter
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product
+{
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+}
+
+.product p
+{
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.boxing_ring
+{
+    font-weight: bold;
+}
+
+.quote
+{
+    text-align: center;
+    width: 300px;
+}
+
+footer address
+{
+    height: 80px;
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+footer address p
+{
+    margin: 5px;
+}
+
+footer .new_edition
+{
+    width: 850px;
+}
+
+footer .new_edition p
+{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+footer .price
+{
+    font-size: 20px;
+    font-weight: normal;
+    width: 500px;
+}
+
+footer .price p::first-letter
+{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+footer .price p
+{
+    margin: 0;
+}
